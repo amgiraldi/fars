@@ -1,0 +1,11 @@
+Package: fars
+Version: 1.0
+Date: 2019-02-12
+Depends: R (>= 3.0.0)
+Imports: readr, dplyr, tidyr, maps, graphics
+Title: Fatality Analysis Reporting System (FARS) Functions
+Author: Antonio M. Giraldi <giraldi.antonio@gmail.com>
+Maintainer: Antonio M. Giraldi <giraldi.antonio@gmail.com>
+Description: Functions for importing and analysing data from FARS 
+License: NA
+URL: https://github.com/amgiraldi/fars
