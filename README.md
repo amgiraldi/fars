@@ -10,28 +10,3 @@ This package contains five functions that help you use the dataset [Fatality Ana
 These five functions help you import the datasets into R, assign names to the datasets, read multiple datasets into R at once, get summary stat from the data, and make plots of the accidents reported by loctaion.   
 
  
-
- 
-
-> The Funtions
- 
-
-* **fars_read:** This function read an existing file in your directory and convert it into a data table in R. Keep in mind that the file to be imported into R must be in your directory, otherwise you may get an error.
-
- 
-
-* **make_filename:** This function creates the name for the data file to be read into R.
-
- 
-
-* **fars_read_years :** This function reads one or more datafiles into R at once.
-
- 
-
-* ***fars_summarize_years:*** This function gives the sample size for each dataset imputed into it.
-
- 
-
-* ***fars_map_state :*** This function plots a point at the location where the accidents reported for each year happened. You must provide the year and the state where you want to plot the accidents.It may be the case that there were no accidents reported in a state for a given year. In that case there will not be any points to plot. Also, the number provided for the state must be in the desired range, otherwise you'll get an error if the number given to the function is not associated with a particular state.
-
- 
