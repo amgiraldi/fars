@@ -1,4 +1,4 @@
-![](C:\Users\AMG\Documents\fars\failing.svg)
+[![Build Status](https://travis-ci.org/amgiraldi/fars.svg?branch=master)](https://travis-ci.org/amgiraldi/fars)
 
 # Fars Info
  
